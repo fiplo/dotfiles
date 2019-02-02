@@ -1,0 +1,43 @@
+! special
+*.cursorColor:  #a0a0a0
+
+! black
+*.color0:       #303030
+*.color8:       #686868
+
+! red
+*.color1:       #e0a6b2
+*.color9:       #f4c0b4
+
+! green
+*.color2:       #cbbbc9
+*.color10:      #e9cac5
+
+! yellow
+*.color3:       #fcb080
+*.color11:      #f8cb9d
+
+! blue
+*.color4:       #8aa1b1
+*.color12:      #9ac2c9
+
+! magenta
+*.color5:       #ac7bde
+*.color13:      #e5b0ff
+
+! cyan
+*.color6:       #7e7e98
+*.color14:      #9997af
+
+! white
+*.color7:       #cfcfcf
+*.color15:      #ffffff
+
+
+#define termfg #e8cbcb
+#define termbg #232323
+
+
+! import rofi
+#include "../rofi/newmeme.rofi"
+

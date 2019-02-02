@@ -1,0 +1,55 @@
+! urxvt config
+
+urxvt*internalBorder: 20
+urxvt*cursorBlink: 1
+urxvt*scrollBar: off
+
+! termbg and termfg defined in each theme
+!
+urxvt*background: termbg
+urxvt*foreground: termfg
+
+! Tewi Font
+!
+urxvt.letterSpace: 0
+urxvt*font: xft:tewi:size=12, \
+	    xft:Misc Fixed Wide:style=ja:size=16
+! Yuki Font
+!
+!urxvt.letterSpace: 1
+!urxvt*font: xft:yuki:size=10
+
+!Hack Font
+!
+!urxvt*font: xft:Hack:size=8
+!urxvt*font: --Hack-----------iso8859-
+!urxvt.letterSpace: -1
+
+
+!urxvt*clipboard.copycmd: xclip  -in 
+!urxvt*clipboard.pastecmd: xclip -out 
+!URxvt.clipboard.copycmd:  xclip -i -selection clipboard
+!URxvt.clipboard.pastecmd: xclip -o -selection clipboard
+URxvt.clipboard.autocopy:   true
+
+! Use firefox for internets
+urxvt*perl-ext-common: default,matcher,keyboard-select,clipboard
+urxvt*url-launcher:   qutebrowser 
+URxvt.keyboard-select.clipboard: True
+urxvt*matcher.button:  3
+
+! Transparency
+!
+!urxvt*transparent: false
+!urxvt*shading: 14
+
+! Clipboard enable
+!
+URxvt.keysym.C-S-0x56: perl:clipboard:paste 
+URxvt.iso14755: False
+URxvt.iso14755_52: False
+URxvt.keysym.C-M-c:    builtin-string:
+URxvt.keysym.C-M-v:    builtin-string:
+Rxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-s: perl:keyboard-select:search
+

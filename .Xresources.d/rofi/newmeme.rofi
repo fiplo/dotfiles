@@ -1,0 +1,26 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme - Donut
+! ------------------------------------------------------------------------------
+
+rofi.font: Tewi 9
+rofi.color-enabled: true
+rofi.fullscreen: true
+
+! -color-window background, border color, separator color
+!
+rofi.color-window: #d5b8ff, #d5b8ff, #303030
+
+
+! -color-normal background, foreground, background alt, highlight background, highlight foreground
+!
+rofi.color-normal: #d5b8ff, #303030, #d5b8ff, #93c9ff, #303030
+
+
+! -color-active background, foreground, background alt, highlight background, highlight foreground
+!
+rofi.color-active: #919191, #268bd2, #eee8d5, #268bd2, #fdf6e3
+
+
+! -color-urgent background, foreground, background alt, highlight background, highlight foreground
+!
+rofi.color-urgent: #919191, #dc322f, #eee8d5, #dc322f, #fdf6e3
